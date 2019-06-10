@@ -1,0 +1,5 @@
+@import "./variables.css";
+
+#navbara {
+    background-color: var(--main-dark);
+}

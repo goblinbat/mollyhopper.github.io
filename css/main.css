@@ -1,3 +1,10 @@
-body {
-    background-color: bisque;
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css");
+
+@import "./variables.css";
+@import "./about.css";
+@import "./body.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./navbar.css";
+@import "./project.css";

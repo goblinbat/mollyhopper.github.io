@@ -5,9 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Molly Hopper</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- bulma -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"> -->
+    <!-- fontawesome? may or may not work -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- my css sheets -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" importance="100">
 </head>
-<body>
+<body id="body">
+<!-- <div id="body"> -->
+    <nav class="navbar" id="navbara" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item"><h3>Molly Hopper</h3></a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="navbar-item"><h4>About</h4></a>
+                    <a class="navbar-item"><h4>Projects</h4></a>
+                    <a class="navbar-item"><h4>Contact</h4></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="notes">
+        <h1>Notes to self on using Bulma</h1>
+        <ul>
+            <li>h tags (h1, h2, etc) don't work for some reason. frustrating</li>
+            <li>classes don't seem to do shit, use id's for everything i guess. really sucks, don't really know what to do when i have multiple elements needing the same styling (since, you know, you're only supposed to use id's once and that's kinda the WHOLE POINT OF CLASSES)</li>
+            <li>ugh</li>
+            <li>has a lot of promise, but i can't use much of my own formatting, especially not variables</li>
+            <li><strike>ffs, the columns were like, the main thing i was excited about, and i can't even get them to work? fuck me</strike></li>
+            <li>okay, well got those to work, at least</li>
+        </ul>
+    </div>
+
+
+
     <script src="js/main.js"></script>
+<!-- </div> -->
 </body>
 </html>

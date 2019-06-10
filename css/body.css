@@ -1,0 +1,9 @@
+@import "./variables.css";
+
+#body {
+    background-color: var(--main);
+}
+
+#notes {
+    padding: 3em;
+}
