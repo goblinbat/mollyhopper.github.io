@@ -7,3 +7,7 @@
 #notes {
     padding: 3em;
 }
+
+.notes {
+    color: var(--accent);
+}

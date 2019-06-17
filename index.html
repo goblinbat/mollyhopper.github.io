@@ -14,7 +14,7 @@
 </head>
 <body id="body">
 <!-- <div id="body"> -->
-    <nav class="navbar" id="navbara" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top navbara" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -25,10 +25,10 @@
         
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item"><h3>Molly Hopper</h3></a>
+                <a class="navbar-item" style='font-size: 2em'><h3>Molly Hopper</h3></a>
             </div>
             <div class="navbar-end">
-                <div class="navbar-item">
+                <div class="navbar-item" style='font-size: 20px'>
                     <a class="navbar-item"><h4>About</h4></a>
                     <a class="navbar-item"><h4>Projects</h4></a>
                     <a class="navbar-item"><h4>Contact</h4></a>
@@ -36,8 +36,15 @@
             </div>
         </div>
     </nav>
+    <br><br>
+    <div id="homePic">
+        <span id="homeTitle">
+            <h1 id="homeName">Molly Hopper</h1>
+            <h4> Junior Developer</h4>
+        </span>
+    </div>
     <div id="notes">
-        <h1>Notes to self on using Bulma</h1>
+        <h1 class="notes">Notes to self on using Bulma</h1>
         <ul>
             <li>h tags (h1, h2, etc) don't work for some reason. frustrating</li>
             <li>classes don't seem to do shit, use id's for everything i guess. really sucks, don't really know what to do when i have multiple elements needing the same styling (since, you know, you're only supposed to use id's once and that's kinda the WHOLE POINT OF CLASSES)</li>
