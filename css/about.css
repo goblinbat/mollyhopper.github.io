@@ -1,1 +1,73 @@
 @import "./variables.css";
+
+#aboutSection {
+    padding: 20px !important;
+}
+
+#aboutSection p {
+    font-size: 1.2em;
+    /* text-align: justify; */
+}
+
+#aboutSection h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#aboutTop {
+    display: inline-flex;
+    padding: 0px 5em 2em 5em;
+}
+
+#profilePicture {
+    background-image: url(../assets/me.jpg);
+    background-size: 290px;
+    min-height: 300px !important;
+    min-width: 300px !important;
+    max-height: 300px;
+    min-width: 300px;
+    border-radius: 300px;
+    background-size: 300px;
+    margin-right: 2em;
+}
+
+.resume {
+    text-align: center;
+}
+
+#Resume {
+    font-size: 2em;
+    color: var(--secondarie) !important;
+    background-color: var(--accent-dark);
+    background-image: url('../assets/wavecut.png');
+    text-align: center !important;
+    border-radius: 50px !important;
+    border-color: var(--main-dark);
+    padding: 10px;
+}
+
+#Resume:hover {
+    color: var(--secondarie-light);
+    background-color: var(--accent);
+}
+
+.my_icons {
+    text-align: center;
+}
+
+.my_icons i {
+    text-align: center;
+    font-size: 3.3em;
+}
+
+.smallicon {
+    font-size: 3.3em !important;
+}
+
+.xsmallicon {
+    font-size: 3.6em !important;
+}
+
+.my_icons h2 {
+    font-size: 2.5em !important;
+}

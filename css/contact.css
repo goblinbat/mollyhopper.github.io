@@ -1,1 +1,68 @@
 @import "./variables.css";
+
+/* .fab, .fas {
+    color: rgb(39, 39, 39) !important;
+    font-size: 35px !important;
+    text-align: center;
+} */
+
+#contactSection {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(39, 39, 39);
+}
+
+#contactSection a {
+    color: rgb(39, 39, 39);
+    font-size: 1.2em;
+}
+
+/* #emailForma {
+    margin: 2em !important;
+    padding: 1.2em !important;
+    display: contents;
+} */
+
+#senderEm, #senderMs, #sendEm {
+    border: none;
+    border-radius: 25px;
+}
+
+#senderEm, #senderMs {
+    /* min-width: 10em !important;
+    max-width: 25em; */
+    width: 17em;
+    font-size: .5em;
+    background-color: var(--main-light);
+}
+
+#senderEm {
+    min-height: 1.2em !important;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+#senderMs {
+    min-height: 12em !important;
+    padding: .7em;
+}
+
+#sendEm {
+    min-height: 2em;
+    width: 8em;
+    padding: .2em;
+    font-size: .6em;
+    padding: 10px;
+    color: var(--secondarie);
+    background-color: var(--accent-dark);
+    background-image: url('../assets/wavecut.png');
+}
+
+#sendEm:hover {
+    color: var(--secondarie-light);
+    background-color: var(--accent);
+}
+
+#otherSites {
+    font-size: 1em;
+}

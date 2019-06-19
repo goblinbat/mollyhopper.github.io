@@ -1,1 +1,13 @@
 @import "./variables.css";
+
+.dumb-footer {
+    background-color: var(--main-darker);
+    background-image: url('../assets/wavecut.png');
+    text-align: center;
+    color: var(--secondarie);
+    font-size: 1.5em;
+}
+
+/* .footer p {
+    margin-top: 15px;
+} */

@@ -2,12 +2,13 @@
 
 #body {
     background-color: var(--main);
+    background-image: url('../assets/wavecut.png')
 }
 
-#notes {
-    padding: 3em;
+a {
+    color: var(--secondarie-light);
 }
 
-.notes {
-    color: var(--accent);
+a:hover {
+    color: var(--secondarie);
 }

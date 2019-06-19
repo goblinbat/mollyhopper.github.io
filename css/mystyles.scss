@@ -3,12 +3,20 @@
 $main: #c4e0f9;
 $main-dark: #9bbdf9;
 $main-darker: #67aaf9;
-$secondary: rgb(178, 66, 206);
-$secondary-light: rgb(216, 107, 238);
-$secondary-dark: rgb(139, 46, 192);
-$accent: #b95f89;
-$accent-light: #ce6f9b;
-$accent-dark: #ad4e7b;
-$extra: rgb(245, 247, 166);
+$main-light: #f4faff;
+$secondarie: rgb(245, 247, 166);
+$secondarie-light: rgb(254, 255, 175);
+$secondarie-dark: rgb(241, 234, 168);
+$accent: #64c470;
+$accent-light: #80d88b;
+$accent-dark: #51af5e;
+
+$link: $accent;
+
+// $extra: rgb(245, 247, 166);
+// $secondary: rgb(178, 66, 206);
+// $secondary-light: rgb(216, 107, 238);
+// $secondary-dark: rgb(139, 46, 192);
+
 
 @import "../node_modules/bulma/bul4ma.sass";

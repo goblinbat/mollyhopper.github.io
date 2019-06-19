@@ -1,0 +1,18 @@
+
+h tags (h1, h2, etc) don't work for some reason. frustrating
+classes don't seem to do shit, use id's for everything i guess. really sucks, don't really know what to do when i have multiple elements needing the same styling (since, you know, you're only supposed to use id's once and that's kinda the WHOLE POINT OF CLASSES)
+ugh
+has a lot of promise, but i can't use much of my own formatting, especially not variables
+
+ffs, the columns were like, the main thing i was excited about, and i can't even get them to work? fuck me
+okay, well got those to work, at least
+
+
+
+
+TO DO: 
+-navbar hamburger
+# -about section formatting
+# -contact section
+-reformat project items
+-contact modal??

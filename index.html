@@ -9,6 +9,13 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"> -->
     <!-- fontawesome? may or may not work -->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Devicons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Bootstrap, for better mobile responsiveness -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- my css sheets -->
     <link rel="stylesheet" type="text/css" href="css/main.css" importance="100">
 </head>
@@ -16,45 +23,274 @@
 <!-- <div id="body"> -->
     <nav class="navbar is-fixed-top navbara" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             </a>
         </div>
         
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" style='font-size: 2em'><h3>Molly Hopper</h3></a>
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-start" id='pleaseChange'>
+                <a href='#' class="navbar-item" style='font-size: 2.4em; color: var(--secondarie)'><h3>Molly Hopper</h3></a>
             </div>
-            <div class="navbar-end">
-                <div class="navbar-item" style='font-size: 20px'>
-                    <a class="navbar-item"><h4>About</h4></a>
-                    <a class="navbar-item"><h4>Projects</h4></a>
-                    <a class="navbar-item"><h4>Contact</h4></a>
+            <div class="navbar-end" id='navbarText'>
+                <div class="navbar-item" style='color: var(--secondarie)'>
+                    <a class="navbar-item" style="font-size: 1.5em; color: var(--secondarie)" href="#about"><h4>About</h4></a>
+                    <a class="navbar-item" style="font-size: 1.5em; color: var(--secondarie)" href="#projects"><h4>Projects</h4></a>
+                    <a class="navbar-item" style="font-size: 1.5em; color: var(--secondarie)" href="#contacts"><h4>Contact</h4></a>
                 </div>
             </div>
         </div>
     </nav>
+
     <br><br>
+
     <div id="homePic">
-        <span id="homeTitle">
+        <span>
             <h1 id="homeName">Molly Hopper</h1>
-            <h4> Junior Developer</h4>
+            <h4 id="homeTitle"> Junior Developer</h4>
         </span>
+        <a id="about" href="about"></a>
     </div>
-    <div id="notes">
-        <h1 class="notes">Notes to self on using Bulma</h1>
-        <ul>
-            <li>h tags (h1, h2, etc) don't work for some reason. frustrating</li>
-            <li>classes don't seem to do shit, use id's for everything i guess. really sucks, don't really know what to do when i have multiple elements needing the same styling (since, you know, you're only supposed to use id's once and that's kinda the WHOLE POINT OF CLASSES)</li>
-            <li>ugh</li>
-            <li>has a lot of promise, but i can't use much of my own formatting, especially not variables</li>
-            <li><strike>ffs, the columns were like, the main thing i was excited about, and i can't even get them to work? fuck me</strike></li>
-            <li>okay, well got those to work, at least</li>
+    
+    <br><br><br>
+    
+    <div id="aboutSection">
+        <h2 id="about">About Me</h2>
+        <div id="aboutTop">
+            <div id="profilePicture" alt="A photo of Molly"></div>
+            <div class="info">
+                <br>
+                <br>
+                <p>I'm 23 years old. I graduated with honors from Indiana State University in May 2018 with a bachelor's degree in Biology. While trying to figure 
+                    out what to do next, I decided to look into learning to code, which I quickly discovered I enjoyed. 
+                    Currently, I'm a student at ElevenFifty Academy in Fishers, IN, where I'm learning to use JavaScript, Python, Django, HTML, CSS, TypeScript, Angular, and Flask. I'm also proficient
+                    with using microsoft office, github, and the Windows terminal.<br>
+                    In addition to coding, I enjoy playing video games, reading, writing stories, and drawing.<br>
+                    I'm now looking for a career in which I can be challenged, continue to learn, and put my creativity to good use.
+                </p>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="resume">
+            <a href="https://docs.google.com/document/d/1UNsk6HO_MRzuRbbLJoyL9GBtxkmxBq-qCLuCd60qlZQ/edit?usp=sharing" target="blank" class="btn" id="Resume">My Resume</a>
+        </div>
+        <br><br><br><br><br><br>
+    
+        <section class="my_icons">
+            <h2>I am proficient with:</h2>
+            <br>
+            <i class="devicon-bootstrap-plain" title="Bootstrap"></i>
+            <i class="devicon-css3-plain" title="CSS3"></i>
+            <i class="devicon-html5-plain" title="HTML5"></i>
+            <i class="devicon-javascript-plain" title="JavaScript"></i>
+            <i class="devicon-python-plain" title="Python"></i>
+            <i class="devicon-django-plain xsmallicon" title="Django"></i>
+            <i class="fas fa-terminal smallicon" title="Windows Terminal"></i>
+            <i class="devicon-git-plain" title="git"></i>
+            <i class="devicon-github-plain" title="GitHub"></i>
+            <i class="devicon-visualstudio-plain" title="Visual Studio Code"></i>
+            <i class="fas fa-file-word smallicon" title="Microsoft Word"></i>
+            <i class="fas fa-file-powerpoint smallicon" title="Microsoft Powerpoint"></i>
+            <i class="fas fa-file-excel smallicon" title="Microsoft Excel"></i>
+        </section>
+        
+    </div>
+    
+    <a name="projects"></a>
+    <br><br>
+    
+    <!-- <div id="projectSection">
+        <h2>Projects</h2>
+        <br>
+        <ul class="project-list">
+            <li class="project-list-item">
+                <a href="https://codepen.io/Goblinbat/pen/XOaKzW" target="blank"><div class="imgbox bigimgbox" id="creature"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://codepen.io/Goblinbat/pen/XOaKzW" target="blank" class="project-title-link">HTML/CSS Creature</a></h4>
+                    <p>A simple creature created using HTML and CSS styling. My first coding project.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://github.com/goblinbat/madlibs" target="blank"><div class="imgbox" id="madlibs"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://github.com/goblinbat/madlibs" target="blank" class="project-title-link">Madlibs</a></h4>
+                    <p>A simple interface in which a user can fill-in, save, and read madlibs. My first solo project in Python.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://github.com/goblinbat/Gold_challenges" target="blank"><div class="imgbox bigimgbox" id="goldchallenges"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://github.com/goblinbat/Gold_challenges" target="blank" class="project-title-link">Gold-Badge Challenges</a></h4>
+                    <p>A series of six challenges completed as part of elevenfifty's curriculum. <br>
+                        Each has a simple user interface that allows the user to complete tasks such as creating 
+                        objects, viewing lists of objects, updating lists, and deleting objects from lists.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="http://198.199.85.6/" target="blank"><div class="imgbox bigimgbox" id="Recipes"></div></a>
+                <div class="project-desc">
+                    <h4><a href="http://198.199.85.6/" target="blank" class="project-title-link">Recipe App</a></h4>
+                    <p> My first website: a site where users can create, share, and view others' recipes. Utilizes Django and is mobile responsive.
+                        It taught me a lot about using Django and designing and creating websites.
+                    </p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://poke-teambuilder-ng.herokuapp.com/" target="blank"><div class="imgbox bigimgbox" id="Pokemon"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://poke-teambuilder-ng.herokuapp.com/" target="blank" class="project-title-link">Pok&eacute;Team Builder</a></h4>
+                    <p> A website/API built utilizing Angular and Flask and deployed using Heroku. Calls on <a href="https://pokeapi.co/" target="blank">Pok&eacute;API</a> for data on over 800 pok&eacute;mon. Mobile responsive. 
+                        <br>
+                        Users can create teams of pok&eacute;mon (users cannot at present view or edit teams, but it's still a work in progress, and I have hope that soon users will be able to, among other features that were cut in interest of time). 
+                    </p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://codepen.io/Goblinbat/pen/yWZmZW" target="blank"><div class="imgbox bigimgbox" id="css-creature2"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://codepen.io/Goblinbat/pen/yWZmZW" target="blank" class="project-title-link">Second CSS Creature</a></h4>
+                    <p> An animated CSS creature made as a part of ElevenFifty's JavaScript class.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://goblinbat.github.io/static_layout/" target="blank"><div class="imgbox bigimgbox" id="staticLayout"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://goblinbat.github.io/static_layout/" target="blank" class="project-title-link">Static Layout</a></h4>
+                    <p> A partial recreation of ElevenFifty's website done as practice.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://mh-pokewalker.web.app/" target="blank"><div class="imgbox bigimgbox" id="apiProject"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://mh-pokewalker.web.app/" target="blank" class="project-title-link">Pok&eacute;Walker API Project</a></h4>
+                    <p>Draws on <a href='https://source.unsplash.com/'>Unsplash's random image API</a> and <a href="https://pokeapi.co/" target="blank">Pok&eacute;API</a>. Users can get a random background and search their favorite pok&eacute;mon, which will follow the cursor around the background. Deployed using FireBase.
+                    </p>
+                </div>
+            </li>
+            <a id='contacts' href="contacts"></a>
         </ul>
+        <br>
+    </div> -->
+
+    <div id="projectSection">
+        <h2>Projects</h2>
+        <p>(click for details)</p>
+        <div class='columns cardBox'>
+            <div class="column"></div>
+            <div class="column projectImage" id="a" onclick="flip('a')">
+                <div class="frontP" id="creature"></div>
+                <div class="backP">
+                    <h4><a href="https://codepen.io/Goblinbat/pen/XOaKzW" target="blank" class="project-title-link">HTML/CSS Creature</a></h4>
+                    <p>A simple creature created using HTML and CSS styling. My first coding project.</p>
+                </div>
+            </div>
+
+            <div class="column projectImage" id="b" onclick="flip('b')">
+                <div class="frontP" id="madlibs"></div>
+                <div class="backP">
+                    <h4><a href="https://github.com/goblinbat/madlibs" target="blank" class="project-title-link">Madlibs</a></h4>
+                    <p>A simple interface in which a user can fill-in, save, and read madlibs. My first solo project in Python.</p>
+                </div>
+            </div>
+
+            <div class="column projectImage" id="c" onclick="flip('c')">
+                <div class="frontP" id="goldchallenges"></div>
+                <div class="backP">
+                    <h4><a href="https://github.com/goblinbat/Gold_challenges" target="blank" class="project-title-link">Gold-Badge Challenges</a></h4>
+                    <p>A series of six challenges completed as part of elevenfifty's curriculum. <br>
+                        Each has a simple user interface that allows a user to complete tasks such as creating 
+                        objects and viewing and modifying lists of objects.</p>
+                </div>
+            </div>
+            <div class="column"></div>
+        </div>
+        <div class="columns cardBox">
+            <div class="column"></div>
+            <div class="column projectImage" id="d" onclick="flip('d')">
+                <div class="frontP" id="Recipes"></div>
+                <div class="backP">
+                    <h4><a href="http://198.199.85.6/" target="blank" class="project-title-link">Recipe App</a></h4>
+                    <p> My first website: a site where users can create, share, and view others' recipes. Utilizes Django and is mobile responsive.
+                        It taught me a lot about using Django and designing and creating websites.
+                    </p>
+                </div>
+            </div>
+            <div class="column projectImage" id="e" onclick="flip('e')">
+                <div class="frontP" id="Pokemon"></div>
+                <div class="backP">
+                    <h4><a href="https://poke-teambuilder-ng.herokuapp.com/" target="blank" class="project-title-link">Pok&eacute;Team Builder</a></h4>
+                    <p> A website/API built utilizing Angular and Flask and deployed using Heroku. Calls on <a href="https://pokeapi.co/" target="blank">Pok&eacute;API</a> for data on over 800 pok&eacute;mon. Mobile responsive. Users can create teams of pok&eacute;mon. Further functionality is a work in progress. 
+                </div>
+            </div>
+
+            <div class="column projectImage" id="f" onclick="flip('f')">
+                <div class="frontP" id="css-creature2"></div>
+                <div class="backP">
+                    <h4><a href="https://codepen.io/Goblinbat/pen/yWZmZW" target="blank" class="project-title-link">Second CSS Creature</a></h4>
+                    <p> An animated CSS creature made as a part of ElevenFifty's JavaScript class.</p>
+                </div>
+            </div>
+            <div class="column"></div>
+        </div>
+        <div class="columns cardBox">
+            <div class="column"></div>
+            <div class="column projectImage" id="g" onclick="flip('g')">
+                <div class="frontP" id="staticLayout"></div>
+                <div class="backP">
+                    <h4><a href="https://goblinbat.github.io/static_layout/" target="blank" class="project-title-link">Static Layout</a></h4>
+                    <p> A partial recreation of ElevenFifty's website done as practice.</p>
+                </div>
+            </div>
+
+            <div class="column projectImage" id="h" onclick="flip('h')">
+                <div class="frontP" id="apiProject"></div>
+                <div class="backP">
+                    <h4><a href="https://mh-pokewalker.web.app/" target="blank" class="project-title-link">Pok&eacute;Walker API Project</a></h4>
+                    <p>Draws on <a href='https://source.unsplash.com/' target="blank">Unsplash's random image API</a> and <a href="https://pokeapi.co/" target="blank">Pok&eacute;API</a>. Users can get a random background and search their favorite pok&eacute;mon, which will follow the cursor around the background. Deployed using FireBase.
+                    </p>
+                </div>
+            </div>
+            <div class="column"></div>
+        </div>
     </div>
 
+    <br>
+    <br>
+
+    <div id='contactSection'>
+        <h1>Contact Me</h1>
+        <!-- <br> -->
+        <form action="https://formspree.io/mollyhopper95@gmail.com" method="POST" id="emailForma">
+            <input type="email" name="email" placeholder="Your email" id="senderEm">
+            <br>
+            <textarea name="message" placeholder="Message" id="senderMs"></textarea>
+            <br>
+            <button type="submit" id="sendEm">Send email</button>
+        </form>
+        <br>
+        <h2 id="otherSites">Or find me on other sites:</h2>
+        <a href="https://github.com/goblinbat" target="blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/molly-hopper-993b13173/" target="blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <br><br>
+
+    <div class="dumb-footer">
+        <br>
+        <p>&copy; Molly Hopper 2019<br>
+        Portfolio</p>
+        <br>
+    </div>
 
 
     <script src="js/main.js"></script>

@@ -1,10 +1,36 @@
 @import "./variables.css";
 
 .navbara {
-    background-color: var(--main-dark);
+    background-color: var(--main-darker);
+    background-image: url('../assets/wavecut.png');
     z-index: 100;
+    color: var(--secondarie) !important;
+}
+
+#pleaseChange {
+    color: var(--secondarie) !important;
+}
+
+#navbarText {
+    color: var(--secondarie) !important;
+}
+
+.navbar-end {
+    color: var(--secondarie) !important;
+}
+
+.navbar-start {
+    color: var(--secondarie) !important;
+}
+
+.navbar-start a:hover {
+    background-color: var(--main-dark) !important;
+    color: var(--secondarie-light);
+    background-image: url('../assets/wavecut.png');
 }
 
 .navbar-end a:hover {
-    background-color: var(--main-darker) !important;
+    background-color: var(--main-dark) !important;
+    color: var(--secondarie-light);
+    background-image: url('../assets/wavecut.png');
 }
