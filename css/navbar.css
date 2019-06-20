@@ -7,22 +7,6 @@
     color: var(--secondarie) !important;
 }
 
-#pleaseChange {
-    color: var(--secondarie) !important;
-}
-
-#navbarText {
-    color: var(--secondarie) !important;
-}
-
-.navbar-end {
-    color: var(--secondarie) !important;
-}
-
-.navbar-start {
-    color: var(--secondarie) !important;
-}
-
 .navbar-start a:hover {
     background-color: var(--main-dark) !important;
     color: var(--secondarie-light);

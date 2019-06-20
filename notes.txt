@@ -11,8 +11,8 @@ okay, well got those to work, at least
 
 
 TO DO: 
--navbar hamburger
+-navbar hamburger   ( https://bulma.io/documentation/components/navbar/#navbar-burger )
 # -about section formatting
 # -contact section
 -reformat project items
--contact modal??
+-contact modal??   ( https://bulma.io/documentation/components/modal/ )
