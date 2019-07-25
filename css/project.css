@@ -152,6 +152,12 @@
     border-radius: 10px;
 }
 
+#madlibReact {
+    background: url('../assets/madlib_fullstack.PNG');
+    background-size: 500px;
+    border-radius: 10px;
+}
+
 .frontP {
     width: 100%;
     height: 100%;
