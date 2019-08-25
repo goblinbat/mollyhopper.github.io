@@ -18,3 +18,18 @@
     color: var(--secondarie-light);
     background-image: url('../assets/wavecut.png');
 }
+
+/* .navbar-end {
+    background-color: var(--main-darker);
+    background-image: url('../assets/wavecut.png');
+}
+
+.navbar-item {
+    background-color: var(--main-darker);
+    background-image: url('../assets/wavecut.png');
+} */
+
+.navbar-menu {
+    background-color: var(--main-darker);
+    background-image: url('../assets/wavecut.png');
+}

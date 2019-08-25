@@ -11,14 +11,14 @@ okay, well got those to work, at least
 
 
 TO DO: 
--navbar hamburger   ( https://bulma.io/documentation/components/navbar/#navbar-burger )
+# -navbar hamburger   ( https://bulma.io/documentation/components/navbar/#navbar-burger )
 # -about section formatting
 # -contact section
 -reformat project items
 -contact modal??   ( https://bulma.io/documentation/components/modal/ )
 
 
-- navbar's a little weird when you open the burger
+
 - project cards are still weirdly offset; keep trying to fix that
 - contact modal? (about the only thing python portfolio has over this one, apart from better mobile responsiveness and a non-weird navbar, etc)
 - mobile responsiveness

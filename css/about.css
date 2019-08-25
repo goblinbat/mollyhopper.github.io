@@ -25,7 +25,7 @@
     min-height: 300px !important;
     min-width: 300px !important;
     max-height: 300px;
-    min-width: 300px;
+    max-width: 300px;
     border-radius: 300px;
     background-size: 300px;
     margin-right: 2em;
@@ -70,4 +70,22 @@
 
 .my_icons h2 {
     font-size: 2.5em !important;
+}
+
+@media screen and (max-width: 948px) {
+    #aboutTop {
+        display: block;
+    }
+
+    #profilePicture {
+        background-image: url(../assets/me.jpg);
+        background-size: 290px;
+        min-height: 300px !important;
+        min-width: 300px !important;
+        max-height: 300px;
+        max-width: 300px;
+        border-radius: 300px;
+        background-size: 300px;
+        margin: auto;
+    }
 }
